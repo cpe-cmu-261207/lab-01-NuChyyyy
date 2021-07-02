@@ -1,0 +1,27 @@
+.fontH {
+    font-family: 'Castoro', serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.fontA{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: rgb(54, 35, 54);
+    padding: 6px;
+    max-width: 200px;
+}
+
+.bgflower{
+    background-image: url(/image/flower.jfif);
+    background-position: center;
+}
+
+.bgpurple{
+    background-color: rgb(54, 35, 54);
+}
+
+.bgearth{
+    background-image: url(/image/earthtone.jfif);
+    background-position: center;
+}
