@@ -13,7 +13,7 @@
 }
 
 .bgflower{
-    background-image: url(/image/flower.jfif);
+    background-image: url(./image/flower.jfif);
     background-position: center;
 }
 
@@ -22,6 +22,6 @@
 }
 
 .bgearth{
-    background-image: url(/image/earthtone.jfif);
+    background-image: url(./image/earthtone.jfif);
     background-position: center;
 }
