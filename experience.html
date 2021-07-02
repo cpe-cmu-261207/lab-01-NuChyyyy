@@ -14,29 +14,81 @@
 </head>
 
 <body class="bgpurple">
-    <div class="bg-white pt-4 flex-row  mx-auto">
-      <div class="flex justify-center pb-4">
-        <p class="fontH">NuChyyyy's Resume</p>
+  <div class="bg-white pt-4 flex-row  mx-auto sm:w-full">
+    <div class="flex justify-center pb-4">
+      <p class="fontH">NuChyyyy's Resume</p>
+    </div>
+
+    <div class="bg-white flex justify-between max-w-screen-md mx-auto sm:w-5/6">
+      <button class="hover:text-red-500">
+        <p class="font-mono text-xl font-light">
+          <a href="index.html">Home</a>
+      </button>
+      <button class="bgpurple text-white px-7 py-2 rounded-t-2xl hover:text-red-400">
+        <p class="font-mono text-2xl font-medium">
+          <a href="experience.html">Experience</a>
+        </p>
+      </button>
+      <button class="hover:text-red-500 font-light">
+        <p class="font-mono text-xl">
+          <a href="contact.html">Contact</a>
+        </p>
+      </button>
+    </div>
+  </div>
+
+  <div class="bgearth max-w-screen-lg mx-auto mt-10 py-6 rounded-xl shadow-2xl pb-16 sm:w-5/6">
+    <!--Head-->
+    <div class="flex-row p-4 mx-auto mt-10 sm:w-5/6">
+      <p class="text-center fontH">
+        Project Experience
+      </p>
+    </div>
+
+    <div class="bg-white max-w-screen-md flex mt-10 mx-auto rounded-xl overflow-hidden space-x-8 shadow-xl sm:w-5/6">
+      <div class="ml-6 mt-6 mr-20">
+        <p class="font-serif font-semibold text md">Rock The Space</p>
+        <p class="font-apple-system text-sm mt-4">I did this project when I was a freshman. In subject 261103 of
+          semester 1. Can visit at
+          <a href="https://scratch.mit.edu/projects/422043298" class="hover:text-red-500 hover:underline"
+            target="_blank">https://scratch.mit.edu/projects/422043298</a>
+        </p>
       </div>
-  
-      <div class="bg-white flex justify-between max-w-screen-md mx-auto ">
-        <button class="hover:text-red-500">
-          <p class="font-mono text-xl font-light">
-            <a href="index.html" target="_blank">Home</a>
-        </button>
-        <button class="bgpurple text-white px-7 py-2 rounded-t-2xl hover:text-red-400">
-          <p class="font-mono text-2xl font-medium">
-            <a href="experience.html" target="_blank">Experience</a>
-          </p>
-        </button>
-        <button class="hover:text-red-500 font-light">
-          <p class="font-mono text-xl">
-            <a href="contact.html" target="_blank">contact</a>
-          </p>
-        </button>
+      <img class="animate-pulse object-cover h-full w-56" src="/image/rock.jpg">
+    </div>
+    
+    <div class="max-w-screen-sm flex mt-10 mx-auto overflow-hidden space-x-8 sm:w-5/6">
+      <video width="320" height="240" controls class="rounded-xl shadow-xl justify-between">
+        <source src="/video/rock.mp4" type="video/mp4">
+      </video>
+      <p class="animate-bounce font-serif font-semibold text-2xl mt-24">
+        Project example
+      </p>
+    </div>
+
+    <div class="bg-white max-w-screen-md flex mt-10 mx-auto rounded-xl overflow-hidden space-x-6 shadow-xl sm:w-5/6">
+      <img class="animate-pulse object-cover h-full w-48" src="/image/bgmain.JPG">
+      <div class="mt-6">
+        <p class="font-serif font-semibold text md">Kitten Hop</p>
+        <p class="font-apple-system text-sm mt-4">
+          In the second semester of 2020, I did this project. <br> Can visit at
+          <a href="https://github.com/jikisheree/Samsoensa.git" class="hover:text-red-500 hover:underline"
+            target="_blank">https://github.com/jikisheree/Samsoensa.git</a>
+        </p>
       </div>
     </div>
-    <p class="text-center text-white mt-6 mb-10">© 2021 Woranuch.com by NuChyyyy</p>
-  </body>
-  
-  </html>
+    
+    <div class="max-w-screen-sm flex mt-10 mx-auto overflow-hidden space-x-8 sm:w-5/6">
+      <video width="320" height="240" controls class="rounded-xl shadow-xl justify-between">
+        <source src="/video/kitten.mp4" type="video/mp4">
+      </video>
+      <p class="animate-bounce font-serif font-semibold text-2xl mt-56">
+        Project example
+      </p>
+    </div>
+
+  </div>
+  <p class="text-center text-white mt-6 mb-10">© 2021 Woranuch.com by NuChyyyy</p>
+</body>
+
+</html>
